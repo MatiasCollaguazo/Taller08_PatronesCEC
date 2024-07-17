@@ -4,9 +4,9 @@ package ec.edu.espol.taller08_patronescec.FactoryMethod;
  *
  * @author Grupo#2
  */
-public class TwitterNotificationFactory implements NotificationFactory{
+public class TwitterNotificationFactory extends NotificationFactory{
     @Override
-    public NotificationStrat createNotification() {
+    public NotificationStrat createNotification() { // factoryMethod
         return new TwitterNotification();
     }
 }
