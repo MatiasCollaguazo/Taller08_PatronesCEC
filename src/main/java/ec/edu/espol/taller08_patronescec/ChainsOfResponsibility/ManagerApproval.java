@@ -4,9 +4,11 @@ import ec.edu.espol.taller08_patronescec.Observer.Customer;
 
 /**
  *
- * @author matia
+ * @author grupo#2
  */
 public class ManagerApproval extends BaseApprover {
+    //Representa un ConcreteHandler
+    
     @Override
     public void approvePurchase(double amount, Customer customer) {
         if (amount >= 2000) {

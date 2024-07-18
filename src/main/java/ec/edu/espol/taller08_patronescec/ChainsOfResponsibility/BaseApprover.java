@@ -6,11 +6,12 @@ import ec.edu.espol.taller08_patronescec.Observer.Customer;
  *
  * @author Grupo#2
  */
-public abstract class BaseApprover implements Approver {//Representa a BaseHandler
+public abstract class BaseApprover implements Approver {
+    //Representa a BaseHandler
     protected Approver nextApprover;
 
     @Override
-    public void setNextApprover(Approver nextApprover) {
+    public void setNext(Approver nextApprover) {
         this.nextApprover = nextApprover;
     }
 
