@@ -41,6 +41,9 @@ public class NotificationService implements Subject {// Clase Subject/Publisher 
     }
     
     public void notifyPurchase(Customer customer, String purchaseDetails) {
-        customer.update("Purchase: " + purchaseDetails);//Para que solo el cliente que haya comprado reciba la notificación
+        customer.update("Purchased: " + purchaseDetails);
+        //Para que solo el cliente que haya comprado reciba la notificación y 
+        //no necesariemente tenga que estar suscrito a las notificaciones por email
+        
     }
 }
