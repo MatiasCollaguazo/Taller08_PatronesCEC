@@ -4,7 +4,7 @@ import ec.edu.espol.taller08_patronescec.Observer.Customer;
 
 /**
  *
- * @author matia
+ * @author Grupo#2
  */
 public class AutomaticApproval extends BaseApprover {
     @Override

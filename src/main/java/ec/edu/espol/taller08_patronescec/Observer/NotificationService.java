@@ -8,7 +8,8 @@ import java.util.List;
  * @author Grupo#2
  */
 
-public class NotificationService implements Subject {// Clase Subject/Publisher concreta
+public class NotificationService implements Subject {
+    // Clase Subject/Publisher concreta
     private List<Observer> observers = new ArrayList<>();
     
     public List<Observer> getObservers(){
