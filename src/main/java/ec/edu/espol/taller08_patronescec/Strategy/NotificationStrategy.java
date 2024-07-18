@@ -7,5 +7,5 @@ import ec.edu.espol.taller08_patronescec.Observer.Customer;
  * @author Grupo#2
  */
 public interface NotificationStrategy {
-    void sendNotification(String message, Customer customer);
+    void notifyCustomer(String message, Customer customer);
 }
