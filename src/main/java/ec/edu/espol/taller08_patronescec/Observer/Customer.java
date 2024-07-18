@@ -1,5 +1,6 @@
 package ec.edu.espol.taller08_patronescec.Observer;
 
+
 /**
  *
  * @author Grupo#2
@@ -15,4 +16,5 @@ public class Customer implements Observer {// Clase Observer/Suscriber especific
     public void update(String message) {
         System.out.println(name + " received notification: " + message);
     }
+    
 }
