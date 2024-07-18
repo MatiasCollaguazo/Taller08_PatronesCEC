@@ -7,7 +7,8 @@ import ec.edu.espol.taller08_patronescec.Strategy.PaymentStrategy;
  *
  * @author Grupo#2
  */
-public class Customer implements Observer {// Clase Observer/Suscriber especifica
+public class Customer implements Observer {
+    // Clase Observer/Suscriber especifica
     private String name;
     private String email;
     private PaymentStrategy paymentStrategy;

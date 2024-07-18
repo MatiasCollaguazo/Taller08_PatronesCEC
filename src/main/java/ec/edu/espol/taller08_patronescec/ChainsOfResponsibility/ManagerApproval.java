@@ -4,7 +4,7 @@ import ec.edu.espol.taller08_patronescec.Observer.Customer;
 
 /**
  *
- * @author grupo#2
+ * @author Grupo#2
  */
 public class ManagerApproval extends BaseApprover {
     //Representa un ConcreteHandler
